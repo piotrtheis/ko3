@@ -31,3 +31,9 @@
 [submodule "modules/flexiasset"]
 	path = modules/flexiasset
 	url = https://github.com/creatoro/flexiasset.git
+[submodule "modules/jelly-auth"]
+	path = modules/jelly-auth
+	url = https://github.com/creatoro/jelly-auth.git
+[submodule "modules/jelly"]
+	path = modules/jelly
+	url = https://github.com/creatoro/jelly.git
