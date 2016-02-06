@@ -28,3 +28,6 @@
 [submodule "modules/minion"]
 	path = modules/minion
 	url = https://github.com/kohana/minion.git
+[submodule "modules/flexiasset"]
+	path = modules/flexiasset
+	url = https://github.com/creatoro/flexiasset.git
