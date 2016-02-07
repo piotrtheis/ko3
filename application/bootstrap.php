@@ -103,7 +103,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/kohana/',
+	'base_url'   => '/',
 ));
 
 /**
@@ -117,10 +117,7 @@ Kohana::$log->attach(new Log_File(APPPATH.'logs'));
 Kohana::$config->attach(new Config_File);
 
 
-/**
- * Require application bootstrap
- */
-require_once APPPATH.'bootstrap'.EXT;
+
 
 /**
  * Enable modules. Modules are referenced by a relative or absolute path.
@@ -150,8 +147,16 @@ require_once APPPATH.'bootstrap'.EXT;
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
  */
+ 
+
+ 
 Route::set('default', '(<controller>(/<action>(/<id>)))')
 	->defaults(array(
 		'controller' => 'welcome',
 		'action'     => 'index',
 	));
+
+/**
+ * Require application bootstrap
+ */
+require_once APPPATH.'bootstrap'.EXT;
