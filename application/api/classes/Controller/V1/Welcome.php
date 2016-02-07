@@ -13,7 +13,6 @@ class Controller_V1_Welcome extends Controller_Api {
             unset($accep_type['*/*']);
             
             
-            echo 'v1';
             print_r($accep_type); die;
             
             
