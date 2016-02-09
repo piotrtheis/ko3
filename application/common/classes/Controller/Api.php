@@ -32,11 +32,9 @@ abstract class Controller_Api extends Controller_App_Core
         
         
         // throw exception if none version given
-        if(!isset($_SERVER['HTTP_API_VERSION'])){
-            throw new HTTP_Exception_404('No version specified for this request');
-        }
-        
-        
+//        if(!isset($_SERVER['HTTP_API_VERSION'])){
+//            throw new HTTP_Exception_404('No version specified for this request');
+//        }
     }
     
     

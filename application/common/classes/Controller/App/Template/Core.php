@@ -2,21 +2,24 @@
 
 defined('SYSPATH') or die('No direct script access.');
 
-abstract class Controller_App_Template extends Controller_App_Core
+abstract class Controller_App_Template_Core extends Controller_App_Core
 {
 
     /**
-     * @var  View  page template
+     * Page template
+     * @var  View
      */
     public $template = 'layout/template';
 
     /**
-     * @var  View  page body content
+     * Page body content
+     * @var  View
      */
     public $view;
 
     /**
-     * @var  boolean  auto render template
+     * Auto render template
+     * @var  boolean  
      * */
     public $auto_render = TRUE;
 

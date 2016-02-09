@@ -17,11 +17,6 @@ abstract class Controller_App_Core extends Controller
      */
     protected $_headers = array();
     
-    
-    
-    //schemaType dla szablonóœ strony -> do Controler frontend
-    //to do request is_mobile();
-
     /**
      * List all supported formats for this controller
      * (accept-type => path to format template)

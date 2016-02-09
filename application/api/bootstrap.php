@@ -23,7 +23,6 @@ Kohana::modules(array(
  */
 
 
-//HTTP_API_VERSION
 
 
  

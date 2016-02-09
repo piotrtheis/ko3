@@ -37,3 +37,9 @@
 [submodule "modules/jelly"]
 	path = modules/jelly
 	url = https://github.com/creatoro/jelly.git
+[submodule "modules/Breadcrumbs"]
+	path = modules/Breadcrumbs
+	url = https://github.com/mauclair/Breadcrumbs
+[submodule "modules/hint"]
+	path = modules/hint
+	url = https://github.com/goyote/hint.git
