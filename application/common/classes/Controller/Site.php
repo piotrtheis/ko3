@@ -50,9 +50,9 @@ abstract class Controller_Site extends Controller_App_Template_Core
     {
         parent::before();
         
-        $this->_breadcrumbs = Breadcrumbs::getInstance();
+       // $this->_breadcrumbs = Breadcrumbs::getInstance();
         
-        $this->_assets = Asset::instance();
+       // $this->_assets = Asset::instance();
     }
 
     public function after()
@@ -67,7 +67,7 @@ abstract class Controller_Site extends Controller_App_Template_Core
         View::set_global('twitter_title', $this->twitter_title);
         View::set_global('twitter_image', $this->twitter_image);
         View::set_global('twitter_description', $this->twitter_description);
-        View::set_global('asets', $this->_assets->render());
+      //  View::set_global('asets', $this->_assets->render());
         View::set_global('breadcrumbs', $this->_breadcrumbs);
         
         parent::after();
